@@ -1,0 +1,20 @@
+CONNECT User5 (127.0.0.1:43806)
+MSG User5: Hello from Alice!
+NICK User5 -> Akshat
+MSG Akshat: Hello everyone, I'm Akshat!
+DISCONNECT Akshat
+CONNECT User5 (127.0.0.1:34000)
+NICK User5 -> akshat
+MSG akshat: hello my name is  akshat kumar sharma
+MSG akshat: nice to meet you
+DISCONNECT akshat
+CONNECT User5 (127.0.0.1:40424)
+MSG User5: /Akshat
+MSG User5: hello guys project is completed
+CONNECT User6 (127.0.0.1:55892)
+MSG User6: /segra
+MSG User6: hello everyone
+CONNECT User5 (127.0.0.1:38062)
+MSG User5: /akshat
+MSG User5: hello everyone
+MSG User5: nice to meet you guys
