@@ -20,9 +20,9 @@ Compilation
 6. gcc -o client client.c -lpthread
 7. ./client <local IP address> port number
 
-How It Works
+-How It Works
 
-1. Server creates a TCP socket and listens on a configurable port
-2. Each client connects to the server via IP + port
-3. When a client sends a message, the server broadcasts it to all other clients
-4. Communication continues until a client disconnects or server shuts down
+1. Server creates a TCP socket and listens on a configurable port.
+2. Each client connects to the server via IP + port.
+3. When a client sends a message, the server broadcasts it to all other clients.
+4. Communication continues until a client disconnects or server shuts down.
