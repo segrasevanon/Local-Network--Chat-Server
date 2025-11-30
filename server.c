@@ -16,7 +16,7 @@
 #define NAME_LEN 32
 
 typedef struct {
-   // int fd;
+    int fd;
     char name[NAME_LEN];
 } client_t;
 
@@ -360,4 +360,5 @@ int main(int argc, char **argv) {
     close(listener);
     return 0;
 }
+
 
