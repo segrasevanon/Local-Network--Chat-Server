@@ -355,8 +355,26 @@ int main(int argc, char **argv) {
     if (log_fp) fclose(log_fp);
     
 
+
+
+
+
+
+    
     for (size_t i = 0; i < client_count; ++i) close(clients[i].fd);
     free(clients);
     close(listener);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
